@@ -22,7 +22,7 @@ python main.py
 ### 测试
 * 手动断开网络连接
 * 运行脚本
-* 查看对应log，预期出现以下类似信息
+* 查看对应./log下的日志文件，出现以下类似信息表示网络连接已经修复
 ```
 2021-01-25 20:51:21,988 - WARNING - Disconnected
 2021-01-25 20:51:25,502 - WARNING - Connection repaired
