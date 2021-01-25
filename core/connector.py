@@ -72,7 +72,7 @@ class Connector():
         requests.packages.urllib3.disable_warnings()
         session = requests.session()
         r = session.post(self.login_url, headers=self.headers, data=self.send, verify=False)
-        print(r.text)
+        # print(r.text)
 
 
     def run(self):
